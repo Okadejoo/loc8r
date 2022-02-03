@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 Foodlist
+  ul My foodlist
+  each x in ffood
+    li I had #{x.name} for #{x.type}
